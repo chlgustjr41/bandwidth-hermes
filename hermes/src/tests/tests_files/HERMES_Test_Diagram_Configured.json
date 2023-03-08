@@ -1,0 +1,614 @@
+[
+  {
+    "name": "HERMES_Test_Diagram",
+    "version": "1.0.0",
+    "instance": {
+      "nodes": [
+        {
+          "width": 200,
+          "height": 50,
+          "id": "StorageContainer1",
+          "type": "storagecontainerNode",
+          "position": { "x": -479.1588892403299, "y": -178.86864999357374 },
+          "data": { "label": "StorageContainer1", "showConfigToggle": false },
+          "deletable": false,
+          "style": {
+            "background": "rgb(255, 185, 2, 0.75)",
+            "color": "#333",
+            "border": "5px solid",
+            "borderColor": "rgb(255, 185, 2)",
+            "width": 200,
+            "height": 50
+          },
+          "positionAbsolute": {
+            "x": -479.1588892403299,
+            "y": -178.86864999357374
+          },
+          "selected": false
+        },
+        {
+          "width": 200,
+          "height": 50,
+          "id": "StaticWebsite1",
+          "type": "staticwebsiteNode",
+          "position": { "x": -37.17930451644625, "y": -218.22299657857707 },
+          "data": {
+            "label": "StaticWebsite1",
+            "showConfigToggle": false,
+            "appPath": "AppPathStaticWebsite1",
+            "indexFile": "IndexFile1.html",
+            "errorFile": "ErrorFile1.html"
+          },
+          "deletable": false,
+          "style": {
+            "background": "rgb(154, 89, 197, 0.75)",
+            "color": "#333",
+            "border": "5px solid",
+            "borderColor": "rgb(154, 89, 197)",
+            "width": 200,
+            "height": 50,
+            "maxHeight": 120,
+            "transition": "height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms"
+          },
+          "zIndex": -1,
+          "selected": false,
+          "positionAbsolute": {
+            "x": -37.17930451644625,
+            "y": -218.22299657857707
+          },
+          "dragging": true
+        },
+        {
+          "width": 200,
+          "height": 50,
+          "id": "StaticWebsite0",
+          "type": "staticwebsiteNode",
+          "position": { "x": -37.179304516446265, "y": -118.32350140126093 },
+          "data": {
+            "label": "StaticWebsite0",
+            "showConfigToggle": false,
+            "appPath": "",
+            "indexFile": "index.html",
+            "errorFile": "error.html"
+          },
+          "deletable": false,
+          "style": {
+            "background": "rgb(154, 89, 197, 0.75)",
+            "color": "#333",
+            "border": "5px solid",
+            "borderColor": "rgb(154, 89, 197)",
+            "width": 200,
+            "height": 50,
+            "maxHeight": 120,
+            "transition": "height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms"
+          },
+          "zIndex": -1,
+          "positionAbsolute": {
+            "x": -37.179304516446265,
+            "y": -118.32350140126093
+          }
+        },
+        {
+          "width": 200,
+          "height": 50,
+          "id": "StorageContainer0",
+          "type": "storagecontainerNode",
+          "position": { "x": -341.4186761928182, "y": -181.89590742318939 },
+          "data": { "label": "StorageContainer0", "showConfigToggle": false },
+          "deletable": false,
+          "style": {
+            "background": "rgb(255, 185, 2, 0.75)",
+            "color": "#333",
+            "border": "5px solid",
+            "borderColor": "rgb(255, 185, 2)",
+            "width": 200,
+            "height": 50
+          },
+          "positionAbsolute": {
+            "x": -341.4186761928182,
+            "y": -181.89590742318939
+          },
+          "selected": false
+        },
+        {
+          "width": 500,
+          "height": 450,
+          "id": "VPC1",
+          "type": "vpcNode",
+          "position": { "x": 359.363798041938, "y": 26.984037587925172 },
+          "data": { "updatedWidth": 500, "updatedHeight": 450 },
+          "deletable": false,
+          "style": {
+            "background": "rgb(0, 191, 140, 0.75)",
+            "color": "#333",
+            "border": "5px solid",
+            "borderColor": "rgb(0, 191, 140)",
+            "width": 500,
+            "height": 450,
+            "transition": "width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms"
+          },
+          "zIndex": -2,
+          "selected": false,
+          "positionAbsolute": {
+            "x": 359.363798041938,
+            "y": 26.984037587925172
+          },
+          "dragging": false
+        },
+        {
+          "width": 600,
+          "height": 550,
+          "id": "VPC0",
+          "type": "vpcNode",
+          "position": { "x": -639.3039103351931, "y": -73.64506004171253 },
+          "data": { "updatedWidth": 600, "updatedHeight": 550 },
+          "deletable": false,
+          "style": {
+            "background": "rgb(0, 191, 140, 0.75)",
+            "color": "#333",
+            "border": "5px solid",
+            "borderColor": "rgb(0, 191, 140)",
+            "width": 600,
+            "height": 550,
+            "transition": "width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms"
+          },
+          "zIndex": -2,
+          "selected": false,
+          "positionAbsolute": {
+            "x": -639.3039103351931,
+            "y": -73.64506004171253
+          },
+          "dragging": false
+        },
+        {
+          "width": 150,
+          "height": 100,
+          "id": "Internet",
+          "type": "internetNode",
+          "position": { "x": 0, "y": 0 },
+          "data": { "label": "Internet" },
+          "deletable": false,
+          "style": {
+            "background": "rgb(7, 156, 238, 1)",
+            "color": "#333",
+            "border": "5px double",
+            "borderColor": "black",
+            "width": 150,
+            "height": 100
+          },
+          "positionAbsolute": { "x": 0, "y": 0 }
+        },
+        {
+          "width": 200,
+          "height": 50,
+          "id": "WebServer0",
+          "type": "webserverNode",
+          "position": { "x": 0, "y": 15.993606328165946 },
+          "data": {
+            "label": "WebServer0",
+            "showConfigToggle": false,
+            "amiId": "webserver0AMI",
+            "userDataScript": "webserver0Datascript",
+            "availabilityZone": "us-east-1",
+            "appPath": "webserver0APPPATH"
+          },
+          "deletable": false,
+          "style": {
+            "background": "rgb(255, 111, 71, 0.75)",
+            "color": "#333",
+            "border": "5px solid",
+            "borderColor": "rgb(255, 111, 71)",
+            "width": 200,
+            "height": 50,
+            "maxHeight": 185,
+            "transition": "height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms"
+          },
+          "parentNode": "VPC0",
+          "positionAbsolute": {
+            "x": -639.3039103351931,
+            "y": -57.65145371354658
+          },
+          "selected": false
+        },
+        {
+          "width": 200,
+          "height": 50,
+          "id": "WebServer1",
+          "type": "webserverNode",
+          "position": { "x": 134.76320802923794, "y": 199.89949517731617 },
+          "data": {
+            "label": "WebServer1",
+            "showConfigToggle": false,
+            "amiId": "webserver1AMI",
+            "userDataScript": "Webserver\n1\nUser\nDataScript",
+            "availabilityZone": "us-east-1",
+            "appPath": "webserver1Apppath"
+          },
+          "deletable": false,
+          "style": {
+            "background": "rgb(255, 111, 71, 0.75)",
+            "color": "#333",
+            "border": "5px solid",
+            "borderColor": "rgb(255, 111, 71)",
+            "width": 200,
+            "height": 50,
+            "maxHeight": 185,
+            "transition": "height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms"
+          },
+          "parentNode": "VPC0",
+          "positionAbsolute": {
+            "x": -504.54070230595516,
+            "y": 126.25443513560364
+          },
+          "selected": false
+        },
+        {
+          "width": 200,
+          "height": 50,
+          "id": "WebServer2",
+          "type": "webserverNode",
+          "position": { "x": 13.672910844612261, "y": 81.07964106490226 },
+          "data": {
+            "label": "WebServer2",
+            "showConfigToggle": false,
+            "amiId": "Webserver2AMIID",
+            "userDataScript": "Webserver2UserDataScript\n",
+            "availabilityZone": "us-west-1",
+            "appPath": "Webserver2Apppath"
+          },
+          "deletable": true,
+          "style": {
+            "background": "rgb(255, 111, 71, 0.75)",
+            "color": "#333",
+            "border": "5px solid",
+            "borderColor": "#079cee",
+            "width": 200,
+            "height": 50,
+            "maxHeight": 185,
+            "transition": "height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms"
+          },
+          "parentNode": "VPC1",
+          "positionAbsolute": {
+            "x": 373.0367088865503,
+            "y": 108.06367865282743
+          },
+          "selected": true
+        },
+        {
+          "width": 200,
+          "height": 50,
+          "id": "Database0",
+          "type": "databaseNode",
+          "position": { "x": 24.268311848267047, "y": 96.21592821298044 },
+          "data": {
+            "label": "Database0",
+            "showConfigToggle": false,
+            "engine": "mysql"
+          },
+          "deletable": false,
+          "style": {
+            "background": "rgb(225, 37, 27, 0.75)",
+            "color": "#333",
+            "border": "5px solid",
+            "borderColor": "rgb(225, 37, 27)",
+            "width": 200,
+            "height": 50,
+            "maxHeight": 70,
+            "transition": "height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms"
+          },
+          "parentNode": "VPC0",
+          "positionAbsolute": {
+            "x": -615.0355984869261,
+            "y": 22.570868171267918
+          }
+        },
+        {
+          "width": 200,
+          "height": 50,
+          "id": "Database1",
+          "type": "databaseNode",
+          "position": { "x": 275.58774269155356, "y": 203.44517987358108 },
+          "data": {
+            "label": "Database1",
+            "showConfigToggle": false,
+            "engine": "postgres"
+          },
+          "deletable": false,
+          "style": {
+            "background": "rgb(225, 37, 27, 0.75)",
+            "color": "#333",
+            "border": "5px solid",
+            "borderColor": "rgb(225, 37, 27)",
+            "width": 200,
+            "height": 50,
+            "maxHeight": 70,
+            "transition": "height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms"
+          },
+          "parentNode": "VPC1",
+          "selected": false,
+          "positionAbsolute": {
+            "x": 634.9515407334916,
+            "y": 230.42921746150625
+          },
+          "dragging": true
+        }
+      ],
+      "edges": [
+        {
+          "label": "",
+          "id": "VPC0Automatic",
+          "source": "Internet",
+          "target": "VPC0",
+          "type": "onewayFloating",
+          "style": { "strokeWidth": 2.5, "stroke": "black" },
+          "data": { "ports": [] },
+          "deletable": false,
+          "selected": false
+        },
+        {
+          "label": "",
+          "id": "VPC1Automatic",
+          "source": "Internet",
+          "target": "VPC1",
+          "type": "onewayFloating",
+          "style": { "strokeWidth": 2.5, "stroke": "black" },
+          "data": { "ports": [] },
+          "deletable": false
+        },
+        {
+          "label": "",
+          "id": "StorageContainer0Automatic",
+          "source": "Internet",
+          "target": "StorageContainer0",
+          "type": "floating",
+          "style": { "strokeWidth": 2.5, "stroke": "black" },
+          "data": { "ports": [] },
+          "deletable": false,
+          "selected": false
+        },
+        {
+          "label": "",
+          "id": "StaticWebsite0Automatic",
+          "source": "Internet",
+          "target": "StaticWebsite0",
+          "type": "floating",
+          "style": { "strokeWidth": 2.5, "stroke": "black" },
+          "data": { "ports": [] },
+          "deletable": false
+        },
+        {
+          "label": "",
+          "id": "StaticWebsite1Automatic",
+          "source": "Internet",
+          "target": "StaticWebsite1",
+          "type": "floating",
+          "style": { "strokeWidth": 2.5, "stroke": "black" },
+          "data": { "ports": [] },
+          "deletable": false,
+          "selected": false
+        },
+        {
+          "label": "",
+          "id": "StorageContainer1Automatic",
+          "source": "Internet",
+          "target": "StorageContainer1",
+          "type": "floating",
+          "style": { "strokeWidth": 2.5, "stroke": "black" },
+          "data": { "ports": [] },
+          "deletable": false
+        },
+        {
+          "id": "Edge-WebServer1-VPC0",
+          "source": "WebServer1",
+          "target": "VPC0",
+          "type": "onewayFloating",
+          "zIndex": 5,
+          "style": { "strokeWidth": 2.5, "stroke": "black" },
+          "label": "",
+          "data": { "ports": [80, 3306] },
+          "selected": false
+        },
+        {
+          "id": "Edge-Database0-WebServer0",
+          "source": "Database0",
+          "target": "WebServer0",
+          "type": "floating",
+          "zIndex": 5,
+          "style": { "strokeWidth": 2.5, "stroke": "black" },
+          "label": "",
+          "data": { "ports": [5432] }
+        },
+        {
+          "id": "Edge-WebServer0-WebServer1",
+          "source": "WebServer0",
+          "target": "WebServer1",
+          "type": "floating",
+          "zIndex": 5,
+          "style": { "strokeWidth": 2.5, "stroke": "black" },
+          "label": "",
+          "data": { "ports": [80] }
+        },
+        {
+          "id": "Edge-Database1-WebServer2",
+          "source": "Database1",
+          "target": "WebServer2",
+          "type": "floating",
+          "zIndex": 5,
+          "style": { "strokeWidth": 2.5, "stroke": "#079cee" },
+          "label": "DB1-ws2",
+          "data": { "ports": [5432] },
+          "selected": false
+        },
+        {
+          "id": "Edge-WebServer2-VPC1",
+          "source": "WebServer2",
+          "target": "VPC1",
+          "type": "onewayFloating",
+          "zIndex": 5,
+          "style": { "strokeWidth": 2.5, "stroke": "black" },
+          "label": "",
+          "data": { "ports": [80] }
+        }
+      ],
+      "viewport": {
+        "x": 307.89466090316284,
+        "y": 432.42731910255554,
+        "zoom": 0.9597516445222221
+      }
+    },
+    "hash": "2fb5413f2383b4bbbbd8cda61e04e46967188fa0f52565981abd899969db8e98"
+  },
+  {
+    "id": "id",
+    "name": "HERMES_Test_Diagram",
+    "blocks": [
+      {
+        "id": "StorageContainer1",
+        "name": "StorageContainer1",
+        "type": "StorageContainer"
+      },
+      {
+        "id": "StaticWebsite1",
+        "name": "StaticWebsite1",
+        "type": "StaticWebsite",
+        "indexFile": "IndexFile1.html",
+        "errorFile": "ErrorFile1.html",
+        "appPath": "AppPathStaticWebsite1"
+      },
+      {
+        "id": "StaticWebsite0",
+        "name": "StaticWebsite0",
+        "type": "StaticWebsite",
+        "indexFile": "index.html",
+        "errorFile": "error.html",
+        "appPath": ""
+      },
+      {
+        "id": "StorageContainer0",
+        "name": "StorageContainer0",
+        "type": "StorageContainer"
+      },
+      {
+        "id": "VPC1",
+        "name": "VPC1",
+        "type": "VPC",
+        "children": [
+          {
+            "id": "WebServer2",
+            "name": "WebServer2",
+            "type": "WebServer",
+            "amiId": "Webserver2AMIID",
+            "availabilityZone": "us-east-1",
+            "userDataScript": "Webserver2UserDataScript\n",
+            "appPath": "Webserver2Apppath"
+          },
+          {
+            "id": "Database1",
+            "name": "Database1",
+            "type": "Database",
+            "engine": "postgres"
+          }
+        ]
+      },
+      {
+        "id": "VPC0",
+        "name": "VPC0",
+        "type": "VPC",
+        "children": [
+          {
+            "id": "WebServer0",
+            "name": "WebServer0",
+            "type": "WebServer",
+            "amiId": "webserver0AMI",
+            "availabilityZone": "us-east-1",
+            "userDataScript": "webserver0Datascript",
+            "appPath": "webserver0APPPATH"
+          },
+          {
+            "id": "WebServer1",
+            "name": "WebServer1",
+            "type": "WebServer",
+            "amiId": "webserver1AMI",
+            "availabilityZone": "us-east-1",
+            "userDataScript": "Webserver\n1\nUser\nDataScript",
+            "appPath": "webserver1Apppath"
+          },
+          {
+            "id": "Database0",
+            "name": "Database0",
+            "type": "Database",
+            "engine": "mysql"
+          }
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "id": "VPC0Automatic",
+        "source_id": "Internet",
+        "destination_id": "VPC0",
+        "ports": []
+      },
+      {
+        "id": "VPC1Automatic",
+        "source_id": "Internet",
+        "destination_id": "VPC1",
+        "ports": []
+      },
+      {
+        "id": "StorageContainer0Automatic",
+        "source_id": "Internet",
+        "destination_id": "StorageContainer0",
+        "ports": []
+      },
+      {
+        "id": "StaticWebsite0Automatic",
+        "source_id": "Internet",
+        "destination_id": "StaticWebsite0",
+        "ports": []
+      },
+      {
+        "id": "StaticWebsite1Automatic",
+        "source_id": "Internet",
+        "destination_id": "StaticWebsite1",
+        "ports": []
+      },
+      {
+        "id": "StorageContainer1Automatic",
+        "source_id": "Internet",
+        "destination_id": "StorageContainer1",
+        "ports": []
+      },
+      {
+        "id": "Edge-WebServer1-VPC0",
+        "source_id": "WebServer1",
+        "destination_id": "VPC0",
+        "ports": [80, 3306]
+      },
+      {
+        "id": "Edge-Database0-WebServer0",
+        "source_id": "Database0",
+        "destination_id": "WebServer0",
+        "ports": [5432]
+      },
+      {
+        "id": "Edge-WebServer0-WebServer1",
+        "source_id": "WebServer0",
+        "destination_id": "WebServer1",
+        "ports": [80]
+      },
+      {
+        "id": "Edge-Database1-WebServer2",
+        "source_id": "Database1",
+        "destination_id": "WebServer2",
+        "ports": [5432]
+      },
+      {
+        "id": "Edge-WebServer2-VPC1",
+        "source_id": "WebServer2",
+        "destination_id": "VPC1",
+        "ports": [80]
+      }
+    ]
+  }
+]

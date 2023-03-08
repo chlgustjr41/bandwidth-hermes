@@ -1,0 +1,120 @@
+{
+  "name": "Load_Validation_Test",
+  "version": "1.0.0",
+  "instance": {
+    "nodes": [
+      {
+        "width": 400,
+        "height": 350,
+        "id": "VPC0",
+        "type": "vpcNode",
+        "position": {
+          "x": -277.59375,
+          "y": -182.421875
+        },
+        "data": {
+          "updatedWidth": 400,
+          "updatedHeight": 350
+        },
+        "deletable": false,
+        "style": {
+          "background": "rgb(0, 191, 140, 0.75)",
+          "color": "#333",
+          "border": "5px solid",
+          "borderColor": "rgb(0, 191, 140)",
+          "width": 400,
+          "height": 350,
+          "transition": "width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms"
+        },
+        "zIndex": -2,
+        "positionAbsolute": {
+          "x": -277.59375,
+          "y": -182.421875
+        }
+      },
+      {
+        "width": 150,
+        "height": 100,
+        "id": "Internet",
+        "type": "internetNode",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "data": {
+          "label": "Internet"
+        },
+        "deletable": false,
+        "style": {
+          "background": "rgb(7, 156, 238, 1)",
+          "color": "#333",
+          "border": "5px double",
+          "borderColor": "black",
+          "width": 150,
+          "height": 100
+        },
+        "positionAbsolute": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "width": 200,
+        "height": 50,
+        "id": "WebServer0",
+        "type": "webserverNode",
+        "position": {
+          "x": 70,
+          "y": 107
+        },
+        "data": {
+          "label": "WebServer0",
+          "showConfigToggle": false,
+          "amiId": "",
+          "userDataScript": "",
+          "availabilityZone": "us-east-1",
+          "appPath": ""
+        },
+        "deletable": false,
+        "style": {
+          "background": "rgb(255, 111, 71, 0.75)",
+          "color": "#333",
+          "border": "5px solid",
+          "borderColor": "rgb(255, 111, 71)",
+          "width": 200,
+          "height": 50,
+          "maxHeight": 185,
+          "transition": "height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms"
+        },
+        "parentNode": "VPC0",
+        "positionAbsolute": {
+          "x": -207.59375,
+          "y": -75.421875
+        }
+      }
+    ],
+    "edges": [
+      {
+        "label": "",
+        "id": "V0Automatic",
+        "source": "Internet",
+        "target": "VPC0",
+        "type": "onewayFloating",
+        "style": {
+          "strokeWidth": 2.5,
+          "stroke": "black"
+        },
+        "data": {
+          "ports": []
+        },
+        "deletable": false
+      }
+    ],
+    "viewport": {
+      "x": 424.5,
+      "y": 345,
+      "zoom": 2
+    }
+  },
+  "hash": "f7bf0f674bb0c74e085b5618c392198617d8facf30f0c4569bd197a364d7854c"
+}

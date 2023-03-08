@@ -1,0 +1,14 @@
+services:
+  backend:
+    env_file: .backend_env
+    hostname: backend
+    build: ./backend/
+    ports:
+      - 10000:10000
+
+  frontend:
+    build: ./hermes/
+    ports:
+      - 80:3000
+    environment:
+      REACT_APP_BACKEND_URL: localhost:10000

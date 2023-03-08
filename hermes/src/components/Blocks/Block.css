@@ -1,0 +1,10 @@
+.Draggable_Block {
+  width: 80%;
+  overflow: hidden;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.Draggable_Block:hover {
+  transform: scale(1.1);
+}
